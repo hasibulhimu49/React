@@ -1,16 +1,31 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🧑‍💻 Job Card UI Project
 
-Currently, two official plugins are available:
+This is a simple React project that displays job cards in a responsive grid layout. Each card shows company details, job title, job type, salary, and location and etc.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Reusable React components
+- Responsive card layout using Flexbox
+- Clean and modern UI design
+- Icon integration using React Icons
+- Hover effects on buttons
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- React.js
+- CSS3
+- React Icons
+
+---
+
+## 📸 Screenshot
+
+![Project Screenshot](assets/screenshot.png)
+
+
