@@ -26,6 +26,6 @@ This is a simple React project that displays job cards in a responsive grid layo
 
 ## 📸 Screenshot
 
-![Project Screenshot](./assets/screenshot.png)
+![Project Screenshot](./src/assets/screenshot.png)
 
 
