@@ -5,7 +5,7 @@ const Section1 = ({data}) => {
 
     console.log("Section1",data)
   return (
-    <div className=" h-screen ">
+    <div className=" h-screen overflow-hidden">
       <Header/>
       <Middle data={data}/>
     </div>

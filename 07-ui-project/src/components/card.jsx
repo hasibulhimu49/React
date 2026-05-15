@@ -3,7 +3,7 @@ import { MoveRight } from "lucide-react";
 const Card = ({ item }) => {
   return (
     <div
-      className="relative h-[88%] w-[290px] rounded-3xl overflow-hidden shadow-2xl bg-cover bg-center"
+      className="relative h-[88%] w-72.5 rounded-3xl overflow-hidden shadow-2xl bg-cover bg-center"
       style={{ backgroundImage: `url(${item.img})` }}
     >
       {/* overlay */}
