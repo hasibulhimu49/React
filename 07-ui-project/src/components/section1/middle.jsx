@@ -1,11 +1,11 @@
 import MiddleLeft from "./middleleft";
 import MiddleRight from "./middleRight";
 
-const Middle = () => {
+const Middle = ({data}) => {
   return (
-    <div className="flex h-full max-h-9/10 w-full max-w-96 bg-yellow-400">
+    <div className="flex h-full max-h-9/10 w-full justify-between bg-white">
         <MiddleLeft/>
-        <MiddleRight/>
+        <MiddleRight data={data}/>
     </div>
   );
 };

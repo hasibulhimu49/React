@@ -1,11 +1,13 @@
 import Header from "./header";
 import Middle from "./middle";
 
-const Section1 = () => {
+const Section1 = ({data}) => {
+
+    console.log("Section1",data)
   return (
-    <div className="bg-amber-100 h-screen">
+    <div className=" h-screen ">
       <Header/>
-      <Middle/>
+      <Middle data={data}/>
     </div>
   );
 };
