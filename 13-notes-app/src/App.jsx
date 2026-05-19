@@ -1,7 +1,14 @@
 const App = () => {
   return (
 
-    <div>Hello, Hi</div>
+    <div>
+      <form onSubmit={}>
+
+        <input type="text" placeholder="Enter your task"></input>
+        <textarea placeholder="Description"></textarea>
+
+      </form>
+    </div>
      );
 };
 
