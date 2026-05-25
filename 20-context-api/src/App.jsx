@@ -1,10 +1,19 @@
-import Navbar from "./component/Navbar";
+import Home from './component/Home'
+import { UserContext } from './context/UserContext';
 
 const App=()=>{
 
+let user="Mohammad Hasibul Hasan";
+
   return(
     <div>
-      <Navbar/>
+      {/* Props drilling */}
+      {/* <Home user={user} /> */}
+
+      {/* Context API */}
+      <UserContext.Provider value={user}>
+        <Home/>
+      </UserContext.Provider>
     </div>
   )
 }
