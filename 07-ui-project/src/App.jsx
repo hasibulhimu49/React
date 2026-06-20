@@ -46,7 +46,7 @@ const Obj = [
 ];
 
 
-return <Section1 data={Obj} />
+return <Section1 data={Obj} />  // React-কে বলা হচ্ছে: "এটা JavaScript expression, এর value বের করে দেখাও।" ti {} deya 
 
 }
 

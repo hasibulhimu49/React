@@ -1,6 +1,8 @@
 import { MoveRight } from "lucide-react";
 
 const Card = ({ item }) => {
+
+  console.log("Card er vitore ase: ",item)
   return (
     <div
       className="relative h-[88%] w-72.5 rounded-3xl overflow-hidden shadow-2xl bg-cover bg-center"
