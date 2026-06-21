@@ -4,8 +4,9 @@ const App = () => {
   const [title, setTittle] = useState("");
   const [details, setDetails] = useState("");
 
-  const [notes, setNotes] = useState([]);
 
+
+  const [notes, setNotes] = useState([]);
   function submitHandler(e) {
     e.preventDefault();
 
@@ -17,6 +18,8 @@ const App = () => {
     setTittle("");
     setDetails("");
   }
+
+
 
   function deleteHandler(idx) {
     const copyNotes = [...notes];

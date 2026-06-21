@@ -1,9 +1,15 @@
 const App=()=>{
 
 
+  // function formHandler(e){
+  //   e.preventDefault();
+  //   console.log("Submitted");
+  // }
+
+  //practice again
   function formHandler(e){
     e.preventDefault();
-    console.log("Submitted");
+    console.log("Form Submitted");
   }
 
   return(
